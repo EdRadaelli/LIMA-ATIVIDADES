@@ -1,0 +1,43 @@
+center.top{
+    padding: 50px 10px;
+    border: solid black;
+    color:white;
+    background-color: red;
+    text-align: center;
+    float:left;
+    float:top;
+}
+h2.direita{
+    padding: 73px 25px;
+    border: solid black;
+    color:white;
+    background-color: purple;
+    text-align: center;
+    float:right;
+    float:top;
+    position:relative;
+    bottom:20px;
+}
+center.bottom{
+    padding: 58px 8px;
+    border: solid black;
+    color:white;
+    background-color:green;
+    text-align: center;
+    float:left;
+    position:relative;
+    bottom:-547px;
+    left:-215px;
+}
+h2.baixo{
+    padding: 77px 27px;
+    border: solid black;
+    color:white;
+    background-color: yellow;
+    text-align: center;
+    float:right;
+    float:bottom;
+    position:relative;
+    bottom:-528px;
+    right:-218px;
+}

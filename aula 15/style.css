@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+body{
+    background-image: linear-gradient(to bottom, #C884FF,#C884FF,#C884FF, #55D7FF, #55D7FF);
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    height: 85px;
+    width: 1479px;
+    margin-left: -8px;
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#busca{
+    color: black;
+    background: none;
+    padding-left:5px;
+    border-radius: 10px;
+    font-size:16px;
+    border: none;
+    height:35px;
+    width:1065px;
+}
+input::placeholder{
+    color:black;
+}
+.pesquisa{
+    height:25px;
+    width:25px;
+    margin-top:-1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#pesquisa{
+    background-color:transparent;
+    border: solid black 1px;;
+    border-radius:10px;
+    width:1100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left:-45px;
+} 
+.computador{
+    width: 90px;
+    height: 60px;
+    margin-left: -20px;
+    margin-top:10px;
+}
+p{
+    font-family: arial;
+    margin-left: 4px;
+    margin-top: -1px;
+    font-size: small;
+}
+.menu{
+    width: 60px;
+    height: 40px;
+    margin-left: -25px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 65px;
+    width: 180px;
+    height: 170px;
+}
+.text{
+    font-family: IM Fell Great Primer;
+    margin-top: -30px;
+    font-size:18px;
+    color:white;
+    font-weight: 500;
+}
+.text1{
+    font-family: IM Fell Great Primer;
+    margin-top: 20px;
+    margin-left: 85px;
+    font-size:18px;
+    color:white;
+    font-weight: 500;
+}
+h1{
+    font-family: Milonga;
+    font-size: 55px;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.478);
+    font-weight: 500;
+}
+.primeiralinha{
+    display: flex;
+    flex-direction: row;
+}
+#coluna{
+    margin-left: 70px;
+}
+button{
+    margin-top: 15px;
+    text-align: center;
+    border: none;
+    background-color: #37F3FF;
+    border-radius: 20px;
+    width: 200px;
+    height: 35px;
+    color:black;
+    font-family: IM Fell Great Primer;
+    font-size: 18px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 92%;
+    margin-left:8px;
+}
+hr{
+    margin-top: 20px;
+    border:solid 1px #37F3FF;
+    width: 1335px;
+}
+.linha2{
+    display: flex;
+    flex-direction: row;
+}
+.quadrado{
+    width: 10px;
+    height: 10px;
+    border:none;
+    background-color: #37F3FF;
+    rotate:45deg;
+    margin-top:-15px;
+    margin-left: 85px;
+    display:flex;
+    justify-content:flex-start;
+}
+.quadrado1{
+    width: 10px;
+    height: 10px;
+    border:none;
+    background-color: #37F3FF;
+    rotate:45deg;
+    margin-top:-15px;
+    margin-left: 1325px;
+    display: flex;
+    justify-content: flex-end;
+}
+.lupa1{
+    width: 50px;
+    height: 50px;
+    margin-top:-75px;
+    margin-left: -50px;
+}
+.sacola{
+    width:200px;
+    height: 200px;
+}
+.bolsa{
+    width:200px;
+    height: 200px;
+}
+.conteudo1{
+    margin-top:20px;
+    margin-left:50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 1;
+}
+.conteudo2{
+    margin-top:25px;
+    margin-left:50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 1;
+}
+#esquerda{
+    float:left;
+    width:500px;
+    height:250px;
+    background-color: #eed1f1a1;
+    border:none;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 150px;
+}
+#direita{
+    float:right;
+    width:500px;
+    height:250px;
+    background-color: #eed1f19e;
+    border:none;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-right: 150px;
+}
+h2{
+    margin-left: 30px;
+    font-family: Milonga;
+    font-size: 30px;
+    color:black;
+    font-weight: 500;
+}
+#esquerda2{
+    text-align: center;
+    float:left;
+    width:500px;
+    height:100px;
+    margin-top: 30px;
+    background-color: #eed1f1;
+    border:none;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+#direita2{
+    text-align: center;
+    float:right;
+    width:500px;
+    height:100px;
+    margin-top: 30px;
+    background-color: #eed1f1;
+    border:none;
+    border-radius: 10px;
+    margin-right: 150px;
+}
+.botao{
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 40px;
+    font-family: Milonga;
+    font-size: 25px;
+    color:black;
+    font-weight: 500;
+}
+.baixo{
+    margin-left: 30px;
+    font-family: IML Fell Great Primer;
+    font-size: 14px;
+    color:black;
+    font-weight: 500;
+}
+.acimadalinha{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left:30px;
+    margin-top: 500px;
+    width: 92%;
+}
+#segundalinha{
+    margin-top: -5px;
+    border:solid 1px #9D4EFE;
+    width: 1335px;
+}
+.quadrado2{
+    width: 10px;
+    height: 10px;
+    border:none;
+    background-color: #9D4EFE;
+    rotate:45deg;
+    margin-top:-15px;
+    margin-left: 85px;
+    display:flex;
+    justify-content:flex-start;
+}
+.quadrado3{
+    width: 10px;
+    height: 10px;
+    border:none;
+    background-color: #9D4EFE;
+    rotate:45deg;
+    margin-top:-9px;
+    margin-left: 1420px;
+    display: flex;
+    justify-content: flex-end;
+}
+#circulo{
+    background-image: linear-gradient(to bottom, #E6E318,#e6e318c4, #e6e31822);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 1250px;
+    margin-top: -200px;
+}
+#triangulo{
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 190px solid #C152A3;
+    margin-left: 1000px;
+    margin-top: -310px;
+}
+#quadrado4{
+    background-image: linear-gradient(to bottom, #3AFD73,#3afd749e, #3afd7433);
+    width: 270px;
+    height: 270px;
+    margin-top: -120px;
+    margin-left: -10px;
+}
+#circulo1{
+    background-image: linear-gradient(to bottom, #6DADE4,#6DADE4, #6dace473, #6dace42b);
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+    margin-left: 100px;
+    margin-top: -500px;
+}
+.transparent{
+    height: 1px;
+    width: 1px;
+    margin-bottom: 90;
+}
+button:hover{
+    background-color:#30c8d3;
+}

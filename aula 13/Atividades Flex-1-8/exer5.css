@@ -1,0 +1,22 @@
+.image{
+    width:100% cover;
+    position:fixed;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 1550px;
+    left:-10px;
+    bottom:1px;
+}
+.text{
+    font-size:50px;
+    text-align: center;
+    position:fixed;
+    border: 2px;
+    width: 100%;
+    height: 500px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+#cabecalho{
+    text-align:center;
+    color:black;
+    background-image:url("imagens/white.jpg");
+    background-size:100% 100%;
+}
+h1{
+    color:cyan
+}
+p{
+    text-align:center;
+    background-color:white;
+    color:black;
+}
+/*Colocar imagem de fundo*/
+body{
+    background-image:url(imagens/dune.jpg);
+    background-size:100% 100%;
+}

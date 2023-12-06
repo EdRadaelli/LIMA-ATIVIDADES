@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: goldenrod;
+    height: 85px;
+    width: 1536px;
+    border-bottom: solid 5px rgb(211, 108, 6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pincel{
+    height:70px;
+    width:70px;
+    margin-top: 7px;
+}
+.home{
+    height:40px;
+    width:40px;
+    margin-bottom: 1px;
+    margin-top: 7px;
+}
+.car{
+    height:35px;
+    width:35px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.menu{
+    height:35px;
+    width:35px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+textarea{
+    border-color: lightgrey;
+    background-color: lightgrey;
+    border-radius: 11px;
+    height: 300px;
+    width: 400px;
+    color:grey;
+    font-weight: bold;
+    font-family: arial;
+    margin-left:20px;
+    font-size: large;
+    margin-top: 42px;
+}
+h1{
+    font-family: arial;
+    margin-top:45px;
+    margin-left: 20px;
+}
+.formulario{
+    font-size: large;
+    font-family: arial;
+    font-weight: bold;
+    color:grey;
+    margin-top:-290px;
+    margin-left: 450px;
+}
+.enviar{
+    margin-top: 220px;
+    margin-left: 20px;
+    height: 30px;
+    width: 65px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: large;
+    color: grey;
+}

@@ -1,0 +1,37 @@
+p{
+    font-size: 12pt;
+}
+p::first-line{
+    color:lightseagreen; font-variant: small-caps;
+}
+
+/*before and after*/
+h1::before{
+    content:url(imagens/63.gif);
+}
+h1::after{
+    content:url(imagens/63.gif);
+}
+
+/*texto-imagem-texto*/
+h2::before{
+    content:text(Avatar-The Way of Water);
+}
+h2::after{
+    content:text(Avatar-The Way of Water);
+}
+
+/*selection*/
+pre::selection{
+    color: red; background: yellow;
+}
+
+/*background*/
+h1{
+    background-color:#6495ed;
+}
+div{
+    background-image: url("imagens/61.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+}

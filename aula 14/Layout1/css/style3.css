@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: goldenrod;
+    height: 85px;
+    width: 1536px;
+    border-bottom: solid 5px rgb(211, 108, 6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pincel{
+    height:70px;
+    width:70px;
+    margin-top: 7px;
+}
+.home{
+    height:40px;
+    width:40px;
+    margin-bottom: 1px;
+    margin-top: 7px;
+}
+.info{
+    height:35px;
+    width:35px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.car{
+    height:35px;
+    width:35px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.menu{
+    height:35px;
+    width:35px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.master{
+    width: 133px;
+    height: 100px;
+}
+.visa{
+    width: 180px;
+    height: 100px;
+    margin-left: 20px;
+}
+.elo{
+    width: 180px;
+    height: 70px;
+}
+.paypal{
+    width: 250px;
+    height: 70px;
+    margin-left: 25px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    color:black;
+    background-color: lightgrey;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+button:hover{
+    background-color: darkgrey;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 45px;
+}
+h3{
+    margin-left: 30px;
+    margin-top: 27px;
+}
+.coluna1{
+    margin-left: 30px;
+    margin-top:60px;
+}
+.coluna2{
+    margin-left: 30px;
+    margin-top:30px;
+}
+.body{
+    margin-top: 70px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img:hover{
+    border: solid 2px grey;
+}

@@ -1,0 +1,17 @@
+p.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+
+/*Teste para com id(#) para mudar as posições*/
+#left{
+    text-align: left;
+}
+#end{
+    text-align: end;
+}
+#start{
+    text-align: start;
+}

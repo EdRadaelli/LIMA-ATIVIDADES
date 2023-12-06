@@ -1,0 +1,22 @@
+img.esquerda{
+    float:left;
+    margin-right:1.5cm;
+    height: 200px;
+}
+img.direita{
+    float:right;
+    margin-left:1.5cm;
+    height: 200px;
+}
+img.centro{
+    float:center;
+    margin-left:570px;
+    height: 200px;
+}
+h1.semflutuacao{
+    clear:both;
+    text-align:center;
+}
+p.esq{
+    text-align: right;
+}

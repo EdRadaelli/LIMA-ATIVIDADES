@@ -1,0 +1,51 @@
+center.top{
+    padding: 5px 30px 5px 30px;
+    border: solid lightseagreen;
+    color:black;
+    background-color: lightseagreen;
+    text-align: center;
+}
+h2.esquerda{
+    padding: 110px 30px 115px 30px;
+    border: solid chocolate;
+    color:black;
+    background-color: chocolate;
+    float:left;
+    text-align: center;
+}
+.vertical-menu{
+    width: 200px;
+    float:right;
+}
+.vertical-menu a{
+    background-color: rgb(240, 154, 92);
+    color: black;
+    display:block;
+    padding:12px;
+    text-decoration: none;
+    text-align: center;
+}
+.vertical-menu a:hover{
+    background-color: rgb(234, 126, 49);
+}
+.vertical-menu a.active{
+    background-color: rgb(162, 81, 23);
+    color: black;
+    text-align: center;
+}
+h2.direita{
+    padding: 245px 10px 240px 50px;
+    border: solid cornflowerblue;
+    color:black;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+center.bottom{
+    padding: 10px 30px 10px 30px;
+    border: solid red;
+    color:black;
+    background-color: red;
+    position:relative;
+    bottom: -10px;
+    text-align: center;
+}

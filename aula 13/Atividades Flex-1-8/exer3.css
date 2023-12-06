@@ -1,0 +1,37 @@
+h2{
+    padding:50px 60px;
+    color:white;
+    text-align: center;
+}
+.container{
+    height: 100%;
+    width:1000px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    gap:410px 0px;
+}
+.linha1, .linha2{
+    display: flex;
+    width:152%;
+    justify-content: space-between;
+    align-items: space-around;
+}
+.top{
+    border: solid red;
+    background-color: red;
+
+}
+.direita{
+    border: solid purple;
+    background-color: purple;
+
+}
+.bottom{
+    border: solid green;
+    background-color:green;
+}
+.baixo{
+    border: solid yellow;
+    background-color: yellow;
+}

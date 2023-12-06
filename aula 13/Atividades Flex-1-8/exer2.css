@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+
+}
+body{
+    background-color:#C1AC99;
+}
+h2{
+    padding:50px 0px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    border: double 10px white ;
+    height:385px;
+    width: 600px;
+    font-size: 30px;
+    color:white;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

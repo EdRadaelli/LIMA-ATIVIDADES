@@ -1,0 +1,29 @@
+body{
+    background-color:#C1AC99;
+}
+h4.avatar{
+    position:relative;
+    bottom:-100px;
+    float:left;
+    height:20px;
+    right:-35px;
+}
+.font{
+    color:white;
+    position:relative;
+    bottom:-50px;
+}
+.border{
+    border: double 10px white ;
+    float:right;
+    padding:120px 40px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position:relative;
+    bottom:-90px;
+    color:white;
+    text-align:justify;
+    font-size: 30px;
+}
+

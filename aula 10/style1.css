@@ -1,0 +1,12 @@
+body{
+    font-family: Arial;
+}
+
+p{
+    background-color:black;
+    color:lightseagreen;
+}
+
+h1,h2{
+    color:gray;
+}
